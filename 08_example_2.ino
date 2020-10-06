@@ -15,8 +15,6 @@ float dist_min, dist_max, dist_raw; // unit: mm
 unsigned long last_sampling_time; // unit: ms
 float scale; // used for pulse duration to distance conversion
 float a;
-float z;
-float x;
 
 void setup() {
 // initialize GPIO pins
